@@ -282,7 +282,7 @@ const userController = {
 
     create: function(req, res){
         userData.push(req.body)
-        res.sendStatus(201).json(req.body)
+        res.status(201).json(req.body)
     }
 
 }
